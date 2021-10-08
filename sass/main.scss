@@ -22,3 +22,14 @@ span {
 .value {
   margin-right: 15px;
 }
+@media screen and (max-width: 767px) {
+  span {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: rgb(39, 30, 116);
+  }
+  .container {
+    width: 500px;
+  }
+}
